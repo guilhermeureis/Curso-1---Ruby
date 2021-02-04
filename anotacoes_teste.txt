@@ -1,0 +1,11 @@
+Necessário executar o seguinte comando para iniciar o projeto ruby:
+        bundle init
+É criado um arquivo Gemfile onde ficam as dependências.
+Após isso é necessário adicionar a linha de comando gem 'rspec' para baixar a dependencia.
+É necessário adicionar o seguinte comando para instalar a dependencia:
+        bundle install
+Ao executar o comando abaixo é criado a pastar spec onde é adcionado os testes:
+        rspec --init
+Por convensão é adicionado [nome]_spec.rb 
+
+Para executar os teste é só executar o comando rspec
